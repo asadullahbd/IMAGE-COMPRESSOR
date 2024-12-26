@@ -1,0 +1,106 @@
+
+
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.image-compressor {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.upload-section input {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #010400!important;
+  color: #FC9E4F!important;
+}
+
+.upload-section input::file-selector-button {
+  color: #FC9E4F;              /* Change text color */
+  background-color: transparent !important; /* Change background color */
+  
+}
+
+.preview-section {
+  margin-top: 20px;
+}
+
+.preview-section img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.compress-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.compress-button:hover {
+  background-color: #0056b3;
+}
+
+.compress-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.download-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #010400 !important;
+}
+
+
+
+body{
+  background-color: #010400 !important;
+}
+
+.c-bg{
+  background-color: #30332E !important;
+}
+
+.text-color{
+  color : #62BBC1 !important;
+}
+
+
+
+.negative-text-color{
+  color : #FC9E4F !important;
+}
+
+button{
+  background: none !important;
+  border: 2px solid #62BBC1 !important;
+}
